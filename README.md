@@ -20,7 +20,7 @@ Main Algorithm:
 (eq. {0,1,2,3,4,5,6,7,8} will be divided into {0,1,2,3} and {5,6,7,8} with {4} being left out.)
 2. We populate the first group into the left bowl and the second group into the right bowl and weigh the two bowls.
 3. We look at the measurement results
-a. If the two bowls are equal, the gold bar that was left out should be the fake one. (eq. in the example in step 1, 4 will be the fake gold bar.)
-b. If the left bowl weigh less and contain one gold bar, We found the fake gold bar in the left bowl.
-c. If the right bowl weigh less and contain one gold bar, We found the fake gold bar in the right bowl.
-d. If the bowl that weigh less still contain more than one gold bars, we go back step 1 with the group that weigh less to divide and repeat until we find the fake gold bar.
+4. If the two bowls are equal, the gold bar that was left out should be the fake one. (eq. in the example in step 1, 4 will be the fake gold bar.)
+5. If the left bowl weigh less and contain one gold bar, We found the fake gold bar in the left bowl.
+6. If the right bowl weigh less and contain one gold bar, We found the fake gold bar in the right bowl.
+7. If the bowl that weigh less still contain more than one gold bars, we go back step 1 with the group that weigh less to divide and repeat until we find the fake gold bar.
