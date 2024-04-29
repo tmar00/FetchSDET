@@ -9,11 +9,11 @@ Setup:
 5. If error occurs, Might need to configure the build path for the project and add all the external jar files in Library/selenium-java-4.20.0
 
 Framework architecture:
-src/main/main.java - Main function to run program
-src/main/CommonUtility.java - Utility library class that contain all commonly used function
-src/main/MainPageObject.java - Page object library class that contains all functions to run action/process on the main page (http://sdetchallenge.fetch.com/)
-Driver/ - Folder containing webdriver
-Library/ - Folder containing all required external jar
+- src/main/main.java - Main function to run program
+- src/main/CommonUtility.java - Utility library class that contain all commonly used function
+- src/main/MainPageObject.java - Page object library class that contains all functions to run action/process on the main page (http://sdetchallenge.fetch.com/)
+- Driver/ - Folder containing webdriver
+- Library/ - Folder containing all required external jar
 
 Main Algorithm:
 1. We start by dividing all the gold bars to weigh into 2 equal amount groups. If we have a odd number of gold bars, we will leave the middle one out. 
